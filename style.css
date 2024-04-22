@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-desc{
+    box-shadow: rgba(92, 228, 110, 0.651) 0px 5px 15px;
+    text-align: justify;
+}
+.custom-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.custom-title{
+    border-bottom: 1px solid rgba(92, 228, 110, 0.651);
+    min-width: auto;
+    color: #1F2544;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+.custom-title:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    background-color: #1F2544;
+    border-radius: 20px;
+    transition-timing-function: linear;
+    transition-duration: .4s;
+}
+.custom-link{
+    list-style-type: none;
+}
+.custom-logo:hover{
+    color: #1F2544;
+    transition-duration: .4s;
+    transition-timing-function: linear;
+    background-color: white;
+    border-radius: 50% 50%;
+}
